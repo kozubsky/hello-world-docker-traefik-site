@@ -8,7 +8,6 @@ services:
             - default
         volumes:
             - './public/:/var/www/html'
-            - './docker/common/nginx/:/etc/nginx/common'
             - './docker/nginx/docker/default.conf:/etc/nginx/conf.d/default.conf'
             - './docker/nginx/logs:/host/logs/nginx'
             - './docker/nginx/volumes/shared:/host/shared'

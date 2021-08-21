@@ -4,3 +4,4 @@ services:
         labels:
             traefik.enable: 'true'
             traefik.http.routers.nginx_hello_world_example.rule: 'Host(`your.example.com`)'
+            traefik.http.routers.nginx_hello_world_example.tls.certresolver: le

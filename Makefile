@@ -7,7 +7,7 @@ start:
 	$(DC) up -d
 
 # stop app containers
-stop: stop-workers
+stop:
 	$(DC) down
 
 # restart app containers

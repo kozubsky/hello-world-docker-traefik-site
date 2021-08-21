@@ -1,0 +1,7 @@
+.idea/
+public/
+/docker-compose.override.yml
+/docker/nginx/logs/
+!/docker/nginx/logs/.gitkeep
+/docker/nginx/volumes/
+!/docker/nginx/volumes/**/.gitkeep
